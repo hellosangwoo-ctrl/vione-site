@@ -1,0 +1,34 @@
+# VI One (브이원)
+
+> VI One(브이원)은 미용실·네일·카페·식당 같은 소상공인을 위한 iPhone용 AI CRM 앱입니다. 예약 관리, 고객 관리(VIP·단골·신규·노쇼 자동 태그), 간편 매출 기록, 문자·카카오톡·WhatsApp 고객 소통, AI FAQ 자동응대(Pro, 사람 확인 기본)를 한 앱에서 제공합니다. Starter 무료, Pro 월 39,000원 또는 연 249,000원(무료 체험 없음, Apple 인앱결제).
+
+핵심 원칙: AI는 사장님이 적어 둔 매장 FAQ만 근거로 답하고, 모르는 질문은 지어내지 않고 '사장님 답변 대기'로 넘깁니다. 1.0에는 결제 단말 연동·전화 자동 수신·직원 계정이 없습니다.
+
+## 주요 페이지
+
+- [홈 — VI One 소개·기능 요약·요금·FAQ](https://vione.app/)
+- [기능 상세](https://vione.app/features/)
+- [요금(Starter 무료 / Pro 39,000원·249,000원)](https://vione.app/pricing/)
+- [FAQ 20문항](https://vione.app/faq/)
+- [사장님 가이드 목록](https://vione.app/guides/)
+- [미용실·네일샵 노쇼 줄이는 7가지 방법](https://vione.app/guides/no-show/)
+- [반복 질문 자동응답 만드는 법(FAQ 설계 5단계)](https://vione.app/guides/repeat-questions/)
+- [고객 메시지 템플릿 10선](https://vione.app/guides/customer-messaging/)
+- [비교 목록](https://vione.app/compare/)
+- [네이버 예약과 함께 쓰는 법](https://vione.app/compare/naver-booking/)
+- [카카오톡 채널 AI 상담과의 차이](https://vione.app/compare/kakao-kanana/)
+- [소개·운영·연락처](https://vione.app/about/)
+- [English overview](https://vione.app/en/)
+
+## 법적 고지
+
+- [이용약관(EULA)](https://hellosangwoo-ctrl.github.io/vione-legal/terms-of-service.html)
+- [개인정보처리방침](https://hellosangwoo-ctrl.github.io/vione-legal/privacy-policy.html)
+
+## 연락
+
+- hello@vione.app
+
+## 전체 텍스트
+
+- [llms-full.txt](https://vione.app/llms-full.txt)

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VI One(브이원) — 소상공인 AI CRM: 예약·고객·매출·소통·AI 응대를 한 앱에</title>
+<meta name="description" content="VI One(브이원)은 미용실·네일·카페·식당 사장님을 위한 AI CRM 앱입니다. 예약 관리, VIP·단골·노쇼 자동 태그, 간편 매출 기록, 문자·카카오톡·WhatsApp 소통, 반복 질문 AI 응대(Pro). Starter 무료, Pro 월 39,000원.">
+<link rel="canonical" href="https://vione.app/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="alternate" hreflang="ko" href="https://vione.app/"><link rel="alternate" hreflang="en" href="https://vione.app/en/"><link rel="alternate" hreflang="x-default" href="https://vione.app/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="VI One"><meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="VI One(브이원) — 소상공인 AI CRM: 예약·고객·매출·소통·AI 응대를 한 앱에"><meta property="og:description" content="VI One(브이원)은 미용실·네일·카페·식당 사장님을 위한 AI CRM 앱입니다. 예약 관리, VIP·단골·노쇼 자동 태그, 간편 매출 기록, 문자·카카오톡·WhatsApp 소통, 반복 질문 AI 응대(Pro). Starter 무료, Pro 월 39,000원."><meta property="og:url" content="https://vione.app/">
+<meta property="og:image" content="https://vione.app/assets/img/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="VI One(브이원) — 소상공인 AI CRM: 예약·고객·매출·소통·AI 응대를 한 앱에"><meta name="twitter:description" content="VI One(브이원)은 미용실·네일·카페·식당 사장님을 위한 AI CRM 앱입니다. 예약 관리, VIP·단골·노쇼 자동 태그, 간편 매출 기록, 문자·카카오톡·WhatsApp 소통, 반복 질문 AI 응대(Pro). Starter 무료, Pro 월 39,000원."><meta name="twitter:image" content="https://vione.app/assets/img/og.png">
+<meta property="article:modified_time" content="2026-09-02">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>:root{--blue:#50AAEE;--blue-d:#2F8FD8;--purple:#6B2FCC;--navy:#0D1B3D;--green:#34C759;--amber:#FF9500;--red:#FF3B30;--ink:#1C1C1E;--mid:#48484A;--mute:#8E8E93;--bg:#fff;--soft:#F5F7FB;--line:rgba(13,27,61,.10);--grad:linear-gradient(135deg,#0D1B3D 0%,#3A2A8C 55%,#6B2FCC 100%);--r:16px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:17px;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:var(--blue-d);text-decoration:none}a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+h1,h2,h3,h4{line-height:1.25;letter-spacing:-.4px}
+h1{font-size:clamp(32px,5vw,54px);font-weight:800}
+h2{font-size:clamp(26px,3.4vw,36px);font-weight:800;margin:0 0 14px}
+h3{font-size:20px;font-weight:700;margin:26px 0 8px}
+p{margin:0 0 14px}
+.muted{color:var(--mute)}
+.small{font-size:14px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:12px;font-weight:700;font-size:16px;border:1.5px solid var(--line);background:#fff;color:var(--ink);transition:transform .15s,box-shadow .15s;white-space:nowrap}
+.btn:hover{text-decoration:none;transform:translateY(-1px);box-shadow:0 10px 24px rgba(13,27,61,.10)}
+.btn.primary{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn.blue{background:var(--blue);color:#fff;border-color:var(--blue)}
+.btn.small{padding:9px 14px;font-size:14px;border-radius:10px}
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:22px;color:var(--ink);letter-spacing:-.5px}
+.logo img{border-radius:9px}.logo b{color:var(--green)}
+.links{display:flex;gap:22px}.links a{color:var(--mid);font-weight:600;font-size:15px}.links a[aria-current]{color:var(--ink)}
+.nav-cta{display:flex;align-items:center;gap:10px}.lang{font-size:13px;font-weight:700;color:var(--mute);padding:6px 8px;border:1px solid var(--line);border-radius:8px}
+@media(max-width:860px){.links{display:none}}
+/* hero */
+.hero{background:var(--grad);color:#fff;padding:72px 0 64px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(80,170,238,.45),transparent 70%);top:-220px;left:-160px}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{margin:14px 0 18px}.hero h1 .em{color:#9AD1FF}
+.hero .lede{font-size:19px;color:rgba(255,255,255,.86);max-width:560px}
+.hero .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 14px}
+.hero .btn.primary{background:#fff;color:var(--navy);border-color:#fff}
+.hero .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.35)}
+.kicker{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;letter-spacing:.2px}
+.hero .note{font-size:13px;color:rgba(255,255,255,.7)}
+.phone{width:min(330px,80vw);margin:0 auto;background:#0a0a0c;border-radius:44px;padding:10px;box-shadow:0 40px 90px rgba(0,0,0,.45)}
+.phone img{border-radius:36px;width:100%}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero{padding:52px 0 44px}}
+/* sections */
+section{padding:64px 0}
+section.soft{background:var(--soft)}
+.sec-h{max-width:720px;margin-bottom:34px}.sec-h p{color:var(--mid);font-size:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(max-width:860px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.card .ic{font-size:28px;margin-bottom:10px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{color:var(--mid);font-size:15.5px;margin:0}
+section.soft .card{border-color:transparent;box-shadow:0 8px 30px rgba(13,27,61,.06)}
+.feat-row{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:28px 0}
+.feat-row.rev .media{order:2}
+.feat-row .media img{width:min(300px,70vw);margin:0 auto;border-radius:30px;box-shadow:0 24px 60px rgba(13,27,61,.18)}
+.feat-row h3{font-size:24px;margin:0 0 10px}
+.feat-row ul{margin:12px 0 0 0;padding-left:0;list-style:none}
+.feat-row li{padding:6px 0 6px 28px;position:relative;color:var(--mid)}
+.feat-row li:before{content:"✓";position:absolute;left:0;top:6px;color:var(--green);font-weight:900}
+@media(max-width:860px){.feat-row{grid-template-columns:1fr;gap:20px}.feat-row.rev .media{order:0}}
+.tag{display:inline-block;background:#EEF4FB;color:#1565C0;border-radius:999px;padding:4px 10px;font-size:12.5px;font-weight:700;margin-bottom:10px}
+.tag.pro{background:#F1E8FF;color:var(--purple)}
+/* pricing */
+.plans{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:860px}
+.plan{background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:28px}
+.plan.hot{border-color:var(--blue);box-shadow:0 20px 50px rgba(80,170,238,.18);position:relative}
+.plan .badge{position:absolute;top:-13px;left:24px;background:var(--blue);color:#fff;font-size:12px;font-weight:800;border-radius:999px;padding:4px 10px}
+.plan .price{font-size:38px;font-weight:900;letter-spacing:-1px;margin:8px 0 2px}.plan .price small{font-size:15px;font-weight:600;color:var(--mute)}
+.plan ul{list-style:none;padding:0;margin:16px 0 20px}.plan li{padding:6px 0 6px 26px;position:relative;font-size:15.5px}
+.plan li:before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:900}
+.plan li.x:before{content:"–";color:var(--mute)}
+@media(max-width:700px){.plans{grid-template-columns:1fr}}
+/* faq */
+.faq details{border-bottom:1px solid var(--line);padding:14px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--mute);font-weight:400;font-size:22px;line-height:1}
+.faq details[open] summary:after{content:"–"}
+.faq .a{color:var(--mid);padding-top:8px;font-size:16px}
+/* article */
+.article{max-width:760px;margin:0 auto;padding:56px 22px 72px}
+.article .meta{color:var(--mute);font-size:14px;margin-bottom:10px}
+.article h1{font-size:clamp(28px,4vw,40px);margin-bottom:14px}
+.article .lede{font-size:19px;color:var(--mid);margin-bottom:26px;padding:16px 18px;background:var(--soft);border-radius:14px;border-left:4px solid var(--blue)}
+.article h2{font-size:26px;margin:40px 0 12px}
+.article h3{font-size:20px;margin:26px 0 8px}
+.article p,.article li{font-size:17px;color:#2b2b2e}
+.article ul,.article ol{margin:0 0 16px 22px}.article li{margin:6px 0}
+.article table{width:100%;border-collapse:collapse;margin:14px 0 22px;font-size:15.5px;display:block;overflow-x:auto}
+.article th,.article td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+.article th{background:var(--soft);font-weight:700}
+.article blockquote{margin:14px 0;padding:14px 18px;background:#FFF8E6;border-left:4px solid var(--amber);border-radius:10px;color:#4a3a00}
+.article .box{background:var(--soft);border-radius:14px;padding:18px 20px;margin:18px 0}
+.article .tpl{background:#0D1B3D;color:#E7EEFB;border-radius:12px;padding:14px 16px;font-size:15px;white-space:pre-wrap;margin:10px 0 16px;font-family:inherit}
+.article .cta{background:var(--grad);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.article .cta h3{color:#fff;margin:0 0 6px}.article .cta p{color:rgba(255,255,255,.85);margin-bottom:14px}
+.article .cta .btn.primary{background:#fff;color:var(--navy);border-color:#fff}
+.article .sources{font-size:14px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px;margin-top:36px}
+.article .sources li{font-size:14px}
+.crumbs{font-size:13.5px;color:var(--mute);margin-bottom:14px}.crumbs a{color:var(--mute)}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.shots img{border-radius:22px;box-shadow:0 14px 40px rgba(13,27,61,.14)}
+@media(max-width:700px){.shots{grid-template-columns:1fr 1fr}}
+.list-cards a.card{display:block;color:inherit}.list-cards a.card:hover{text-decoration:none;box-shadow:0 14px 40px rgba(13,27,61,.10)}
+.list-cards .card h3{color:var(--ink)}
+.cta-band{background:var(--grad);color:#fff;padding:64px 0;text-align:center}
+.cta-band h2{color:#fff}.cta-band p{color:rgba(255,255,255,.85);font-size:18px}
+.cta-band .btn.primary{background:#fff;color:var(--navy);border-color:#fff;margin-top:8px}
+.notice{font-size:13.5px;color:var(--mute);margin-top:10px}
+/* footer */
+footer{background:#0B1024;color:#c9d1e6;padding:54px 0 28px;margin-top:0}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+footer h4{color:#fff;font-size:14px;margin-bottom:10px;letter-spacing:.3px}
+footer a{display:block;color:#c9d1e6;font-size:14.5px;margin:6px 0}
+footer p{font-size:14.5px;color:#aab3cc}
+.flogo{font-size:22px;font-weight:900;color:#fff;margin-bottom:10px}.flogo b{color:var(--green)}
+.fine{margin-top:30px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);font-size:12.5px;color:#8e97b3}
+@media(max-width:860px){.fgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.fgrid{grid-template-columns:1fr}}
+.def{font-size:18px;color:var(--mid);max-width:820px}
+.def strong{color:var(--ink)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://vione.app/#org", "name": "VI One", "alternateName": ["브이원", "VI One (브이원)"], "url": "https://vione.app", "logo": "https://vione.app/assets/img/app-icon.svg", "email": "hello@vione.app", "description": "소상공인(미용실·네일·카페·식당)을 위한 AI CRM 앱 VI One(브이원)을 만드는 팀. 예약·고객·매출·고객 소통·AI FAQ 응대를 한 앱에 담습니다.", "areaServed": "KR", "foundingLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Seoul", "addressCountry": "KR"}}, "contactPoint": [{"@type": "ContactPoint", "email": "hello@vione.app", "contactType": "customer support", "availableLanguage": ["ko", "en"]}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "@id": "https://vione.app/#app", "name": "VI One", "alternateName": "브이원", "applicationCategory": "BusinessApplication", "operatingSystem": "iOS", "description": "VI One(브이원)은 미용실·네일샵·카페·식당 같은 소상공인을 위한 AI CRM 앱입니다. 예약 관리, VIP·단골·신규·노쇼 고객 자동 태그, 간편 매출 기록, 문자·카카오톡·WhatsApp 고객 소통, AI FAQ 자동응대(Pro)를 한 앱에서 제공합니다.", "url": "https://vione.app", "author": {"@id": "https://vione.app/#org"}, "inLanguage": ["ko", "en"], "offers": [{"@type": "Offer", "name": "Starter", "price": "0", "priceCurrency": "KRW", "description": "예약·고객·간편 매출 기록·고객 소통 (무료)"}, {"@type": "Offer", "name": "Pro 월간", "price": "39000", "priceCurrency": "KRW", "description": "Starter 전체 + AI FAQ 자동응대 · 월 구독(Apple 인앱결제)"}, {"@type": "Offer", "name": "Pro 연간", "price": "249000", "priceCurrency": "KRW", "description": "Starter 전체 + AI FAQ 자동응대 · 연 구독(Apple 인앱결제)"}], "featureList": ["예약 관리", "고객 관리(VIP·단골·신규·노쇼 자동 태그)", "간편 매출 기록", "고객 소통(문자·카카오톡·WhatsApp)", "AI FAQ 자동응대(Pro, 사람 확인 기본)"], "installUrl": "https://apps.apple.com/kr/app/vi-one/id6774170446", "sameAs": ["https://apps.apple.com/kr/app/vi-one/id6774170446"]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "url": "https://vione.app", "name": "VI One", "alternateName": "브이원", "inLanguage": "ko", "publisher": {"@id": "https://vione.app/#org"}}</script>
+
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="/" aria-label="VI One 홈"><img src="/assets/img/app-icon.svg" alt="" width="34" height="34"><span>VI One<b>.</b></span></a>
+  <nav class="links"><a href="/features/">기능</a><a href="/pricing/">요금</a><a href="/guides/">가이드</a><a href="/compare/">비교</a><a href="/faq/">FAQ</a><a href="/about/">소개</a></nav>
+  <div class="nav-cta"><a class="btn small primary" href="https://apps.apple.com/kr/app/vi-one/id6774170446" rel="noopener">App Store에서 다운로드</a><a class="lang" href="/en/">EN</a></div>
+</div></header>
+<main>
+
+<section class="hero"><div class="wrap">
+  <div>
+    <span class="kicker">소상공인 AI CRM · iPhone</span>
+    <h1>손님 응대는 사장님이,<br><span class="em">반복 질문은 AI가.</span></h1>
+    <p class="lede"><strong>VI One(브이원)</strong>은 미용실·네일·카페·식당 사장님을 위한 AI CRM 앱입니다. 예약, 고객, 매출 기록, 문자·카카오톡·WhatsApp 소통, 그리고 주차·영업시간·가격 같은 반복 질문의 AI 응대(Pro)를 한 앱에서 처리합니다.</p>
+    <div class="cta-row"><a class="btn primary" href="https://apps.apple.com/kr/app/vi-one/id6774170446" rel="noopener">App Store에서 다운로드</a><a class="btn ghost" href="/features/">기능 자세히 보기</a></div>
+    <p class="note">Starter 무료 · Pro 월 39,000원(연 249,000원) · AI 응답은 참고용, 최종 확인은 사장님이</p>
+  </div>
+  <div class="phone"><picture><source srcset="/assets/img/screen-dash.webp" type="image/webp"><img src="/assets/img/screen-dash.png" alt="VI One 대시보드 화면 — 오늘 예약, 전체 고객, 이번달 매출, 인사이트, 처리할 일" width="330" loading="lazy"></picture></div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>VI One은 무엇인가요?</h2>
+  <p class="def"><strong>VI One(브이원)은 사장님 한 명이 예약·응대·고객관리를 모두 감당하는 매장을 위한 iPhone용 AI CRM 앱</strong>입니다. 전화·문자·카카오톡으로 들어오는 예약을 정리하고, 고객을 VIP·단골·신규·노쇼로 자동 태그하며, 결제를 간단히 기록하고, 고객에게 문자·카카오톡·WhatsApp으로 바로 연락합니다. Pro 플랜에서는 AI가 매장 FAQ를 근거로 반복 질문의 답변 초안을 만들고, 모르는 질문은 지어내지 않고 사장님께 넘깁니다. Starter는 무료, Pro는 월 39,000원 또는 연 249,000원입니다.</p>
+  <p class="def small muted">제공 기능(1.0): 예약 관리 · 고객 관리 · 간편 매출 기록 · 고객 소통 · AI FAQ 자동응대(Pro) · 한국어/English</p>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <div class="sec-h"><h2>사장님이 매일 겪는 세 가지 문제</h2><p>시술 중, 조리 중, 계산 중에는 전화도 문자도 받을 수 없습니다. 그런데 매출은 바로 그 전화와 문자에서 시작됩니다.</p></div>
+  <div class="grid3">
+    <div class="card"><div class="ic">📵</div><h3>놓친 전화가 곧 놓친 예약</h3><p>손님 응대 중에 울린 전화는 대부분 다시 걸려오지 않습니다. 전화·문자 예약을 한 곳에 기록하고 요청 대기부터 처리해야 합니다.</p></div>
+    <div class="card"><div class="ic">🔁</div><h3>매일 같은 질문, 같은 답</h3><p>"주차 되나요?", "몇 시까지 하세요?", "가격이요?" — 하루의 문자 절반은 반복 질문입니다. 답을 한 번만 적어 두면 AI가 초안을 만듭니다.</p></div>
+    <div class="card"><div class="ic">👑</div><h3>단골을 기억하는 일</h3><p>누가 VIP인지, 누가 60일째 안 오는지, 누가 노쇼를 두 번 했는지 — 기억에 의존하면 놓칩니다. 태그와 인사이트로 자동 정리합니다.</p></div>
+  </div>
+</div></section>
+
+<section id="features"><div class="wrap">
+  <div class="sec-h"><h2>한 앱에 담은 다섯 가지</h2><p>1.0에서 실제로 제공하는 기능만 소개합니다. 화면은 데모 매장 예시입니다.</p></div>
+  <div class="feat-row"><div class="media"><picture><source srcset="/assets/img/screen-book.webp" type="image/webp"><img src="/assets/img/screen-book.png" alt="VI One 예약 화면 — 오늘 예약 리스트와 상태 표시" width="300" loading="lazy"></picture></div><div><span class="tag">예약 관리</span><h3>들어온 예약을 한눈에, 처리는 한 번에</h3><p>오늘의 예약과 요청 대기를 리스트·주간 보기로 확인하고 승인·변경·취소합니다. 전화로 받은 예약도 대화 기록에서 바로 예약으로 만들 수 있습니다.</p><ul><li>리스트 보기 / 주간 캘린더 보기</li><li>요청 → 확정 → 완료 상태 관리, 노쇼 표시</li><li>서비스(메뉴)·가격·소요시간 등록으로 빠른 입력</li></ul></div></div>
+  <div class="feat-row rev"><div class="media"><picture><source srcset="/assets/img/screen-cust.webp" type="image/webp"><img src="/assets/img/screen-cust.png" alt="VI One 고객 화면 — VIP, 단골, 신규, 주의 태그 필터" width="300" loading="lazy"></picture></div><div><span class="tag">고객 관리</span><h3>VIP·단골·신규·노쇼, 자동으로 정리</h3><p>방문 횟수와 누적 결제, 노쇼 기록으로 고객 등급이 자동 계산됩니다. 고객별 메모, 방문·결제·소통 이력이 한 화면에 모입니다.</p><ul><li>👑 VIP · 단골 · 신규 · ⚠️ 주의(노쇼 2회 이상) 필터</li><li>뜸한 고객 알림 — "단골 ○○님이 60일째 안 오셨어요"</li><li>이름·전화 검색, 고객 추가 한 번에</li></ul></div></div>
+  <div class="feat-row"><div class="media"><picture><source srcset="/assets/img/screen-cust-detail.webp" type="image/webp"><img src="/assets/img/screen-cust-detail.png" alt="VI One 고객 상세 — 방문, 총 지출, 결제 내역, 예약 이력" width="300" loading="lazy"></picture></div><div><span class="tag">간편 매출 기록</span><h3>결제를 기록하면 고객 이력과 매출이 함께 정리</h3><p>상품명·수량·금액·결제수단만 입력하면 고객별 이용 내역과 이번 달 매출이 자동으로 집계됩니다. 결제 단말 없이도 매장 흐름이 보입니다.</p><ul><li>고객 상세에서 '+ 결제 추가'</li><li>대시보드 KPI — 오늘 예약, 이번달 예약·매출·노쇼</li><li>고객 누적 결제가 VIP 판정에 반영</li></ul></div></div>
+  <div class="feat-row rev"><div class="media"><picture><source srcset="/assets/img/screen-composer.webp" type="image/webp"><img src="/assets/img/screen-composer.png" alt="VI One 문자 보내기 — 노쇼 방지 확인 템플릿" width="300" loading="lazy"></picture></div><div><span class="tag">고객 소통</span><h3>문자·카카오톡·WhatsApp·전화, 고객 화면에서 바로</h3><p>예약 리마인드, 감사·재방문 유도, 노쇼 방지 확인, 이벤트 안내 템플릿을 골라 보내면 소통 이력에 자동 기록됩니다. 수신 번호를 연결하면 고객이 보낸 문자·WhatsApp이 소통함에 모입니다.</p><ul><li>템플릿 4종 + 직접 입력, 리뷰 요청 링크</li><li>소통함 — 전체 / 미처리 / 보낸 메시지</li><li>카카오톡은 메시지 복사 후 붙여넣기 방식</li></ul></div></div>
+  <div class="feat-row"><div class="media"><picture><source srcset="/assets/img/screen-msg-draft.webp" type="image/webp"><img src="/assets/img/screen-msg-draft.png" alt="VI One 대화 상세 — AI가 매장 FAQ로 만든 답변 초안과 답장 보내기" width="300" loading="lazy"></picture></div><div><span class="tag pro">AI FAQ 자동응대 · Pro</span><h3>반복 질문은 AI가 초안, 사장님은 확인만</h3><p>영업시간·주차·예약·가격·위치 FAQ를 우리 매장 답변으로 채워 두면, 고객 질문에 가장 맞는 FAQ로 AI가 초안을 만듭니다. 사장님이 확인·수정 후 보내는 것이 기본이고, 자동응답을 켜면 FAQ에 있는 질문은 자동으로 답합니다.</p><ul><li>모르는 질문은 지어내지 않고 '사장님 답변 대기'로</li><li>사장님이 한 번 답하면 다음부터는 FAQ로 자동 응답</li><li>AI 응답 테스트로 미리 확인</li></ul></div></div>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <div class="sec-h"><h2>믿고 쓸 수 있게 만든 원칙</h2><p>AI가 매장 대신 말하는 순간, 사장님의 신뢰가 걸려 있습니다. 그래서 다음 네 가지를 기본값으로 두었습니다.</p></div>
+  <div class="grid2">
+    <div class="card"><h3>✓ 사람 확인이 기본</h3><p>AI 초안은 사장님이 확인한 뒤 전송합니다. 자동응답은 Pro에서 사장님이 직접 켜는 선택 기능입니다.</p></div>
+    <div class="card"><h3>✓ AI는 매장 FAQ만 답합니다</h3><p>사장님이 적어 둔 답변만 근거로 삼고, 근거가 없으면 답하지 않습니다. 새 질문은 사장님께 넘깁니다.</p></div>
+    <div class="card"><h3>✓ 매장별 데이터 분리</h3><p>매장 데이터는 다른 매장과 분리되어 보관됩니다.</p></div>
+    <div class="card"><h3>✓ 앱 안에서 언제든 삭제</h3><p>설정에서 계정과 데이터를 직접 삭제할 수 있습니다. 구독 관리·해지 버튼도 설정에 있습니다.</p></div>
+  </div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <div class="sec-h"><h2>요금</h2><p>Starter는 무료로 시작하고, 반복 질문 AI 응대가 필요해질 때 Pro로 올리세요. 무료 체험 기간은 없습니다.</p></div>
+  <div class="plans">
+    <div class="plan"><h3>Starter</h3><div class="price">무료</div><p class="muted small">기본 CRM — 사장님 한 분이 시작하기에 충분</p><ul><li>예약 관리 (리스트·주간)</li><li>고객 관리 · VIP/단골/신규/노쇼 자동 태그</li><li>간편 매출 기록</li><li>고객 소통 (문자·카카오톡·WhatsApp·전화) + 이력</li><li class="x">AI FAQ 자동응대</li></ul><a class="btn" href="https://apps.apple.com/kr/app/vi-one/id6774170446" rel="noopener">App Store에서 다운로드</a></div>
+    <div class="plan hot"><span class="badge">AI 응대 포함</span><h3>Pro</h3><div class="price">월 39,000원 <small>또는 연 249,000원</small></div><p class="muted small">연간 결제 시 월 대비 약 47% 절약(5개월치)</p><ul><li>Starter 전체 기능</li><li>AI FAQ 자동응대 · AI 답변 초안</li><li>모르는 질문 → 사장님 답변 대기 → FAQ 자동 등록</li><li>Apple 인앱결제 · iPhone 설정에서 해지</li></ul><a class="btn blue" href="https://apps.apple.com/kr/app/vi-one/id6774170446" rel="noopener">App Store에서 다운로드</a></div>
+  </div>
+  <p class="notice">가격은 App Store 표시 가격과 동일하며 부가세 포함 여부 등 결제 조건은 Apple 인앱결제 정책에 따릅니다. <a href="/pricing/">요금 자세히 보기 →</a></p>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <div class="sec-h"><h2>자주 묻는 질문</h2><p>더 많은 질문과 답은 <a href="/faq/">FAQ 페이지</a>에 있습니다.</p></div>
+  <div class="faq"><details><summary>VI One(브이원)은 어떤 앱인가요?</summary><div class="a">VI One(브이원)은 미용실·네일샵·카페·식당처럼 사장님 한 명이 예약과 손님 응대를 함께 감당하는 매장을 위한 AI CRM 앱입니다. 예약 관리, 고객 관리(VIP·단골·신규·노쇼 자동 태그), 간편 매출 기록, 문자·카카오톡·WhatsApp 고객 소통을 한 앱에서 처리하고, Pro 플랜에서는 주차·영업시간·가격 같은 반복 질문에 AI가 매장 FAQ로 답변 초안을 만들어 드립니다.</div></details><details><summary>누구에게 맞는 앱인가요?</summary><div class="a">전화와 문자로 예약이 들어오고, 손님 응대 중에 연락을 놓치기 쉬운 1인·소규모 매장에 맞습니다. 미용실, 네일·피부관리, 카페, 예약제 식당, 공방, 학원처럼 '단골을 기억하고 다시 오게 하는 일'이 매출인 업종이 대표적입니다.</div></details><details><summary>가격은 얼마인가요?</summary><div class="a">Starter는 무료입니다(예약·고객·간편 매출 기록·고객 소통). AI FAQ 자동응대가 포함된 Pro는 월 39,000원 또는 연 249,000원(월 대비 약 47% 절약)이며, 별도 무료 체험 기간은 없습니다. 구독은 Apple 인앱결제로 처리됩니다.</div></details><details><summary>무료 Starter로 무엇을 할 수 있나요?</summary><div class="a">예약 확인·승인·변경·취소, 고객 프로필과 방문·소통 이력, VIP·단골·신규·노쇼 자동 태그, 간편 매출(결제) 기록, 문자·카카오톡·WhatsApp 메시지 템플릿 발송과 소통 이력 기록을 모두 무료로 사용할 수 있습니다.</div></details><details><summary>AI 자동응대는 어떻게 동작하나요?</summary><div class="a">사장님이 앱의 'AI 응대' 탭에서 영업시간·주차·예약·가격·위치 같은 FAQ를 우리 매장 답변으로 채워 두면, 고객 질문이 들어왔을 때 AI가 그 FAQ 중 가장 맞는 답을 찾아 초안을 만듭니다. 사장님이 확인·수정한 뒤 보내는 방식이 기본이며, Pro에서 자동응답을 켜면 FAQ에 있는 질문은 자동으로 답합니다.</div></details><details><summary>AI가 모르는 질문을 받으면 어떻게 되나요?</summary><div class="a">지어내지 않습니다. FAQ에 없는 질문은 '사장님 답변 대기' 목록으로 넘어가고, 사장님이 한 번 답하면 그 답이 FAQ로 등록되어 다음부터는 AI가 같은 질문에 답할 수 있습니다.</div></details></div>
+</div></section>
+
+<section class="cta-band"><div class="wrap"><h2>놓친 전화는 있어도, 놓친 예약은 없게.</h2><p>VI One — 예약부터 응대까지, 한 앱에. Starter는 무료입니다.</p><a class="btn primary" href="https://apps.apple.com/kr/app/vi-one/id6774170446" rel="noopener">App Store에서 다운로드</a><p class="notice" style="color:rgba(255,255,255,.7)">문의 hello@vione.app</p></div></section>
+
+</main>
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><div class="flogo">VI One<b>.</b></div><p>소상공인을 위한 AI CRM 앱. 예약·고객·매출·소통·AI FAQ 응대를 한 앱에.</p></div>
+    <div><h4>제품</h4><a href="/features/">기능</a><a href="/pricing/">요금</a><a href="/faq/">자주 묻는 질문</a><a href="/en/">English</a></div>
+    <div><h4>가이드</h4><a href="/guides/no-show/">노쇼 줄이기</a><a href="/guides/repeat-questions/">반복 질문 자동응답</a><a href="/guides/customer-messaging/">고객 메시지 템플릿</a><a href="/compare/naver-booking/">네이버 예약과 함께 쓰기</a></div>
+    <div><h4>회사·법적 고지</h4><a href="/about/">소개·연락처</a><a href="https://hellosangwoo-ctrl.github.io/vione-legal/terms-of-service.html" rel="noopener">이용약관(EULA)</a><a href="https://hellosangwoo-ctrl.github.io/vione-legal/privacy-policy.html" rel="noopener">개인정보처리방침</a><a href="mailto:hello@vione.app">hello@vione.app</a></div>
+  </div>
+  <p class="fine">© 2026 VI One · 서울 · AI 응답은 참고용이며 최종 판단과 결정은 사장님이 하십니다 · 화면은 예시입니다 · 구독은 Apple 인앱결제로 관리되며 App Store 승인 후 이용 가능합니다.</p>
+</div></footer>
+</body>
+</html>
