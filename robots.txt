@@ -1,8 +1,2 @@
-# vione.app — we welcome search engines and AI answer engines.
 User-agent: *
 Allow: /
-
-User-agent: Bytespider
-Disallow: /
-
-Sitemap: https://vione.app/sitemap.xml
